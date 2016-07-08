@@ -1,0 +1,50 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-size: 16px;
+  text-align: left;
+  letter-spacing: 0.5px;
+  color: rgba(255, 255, 255, 0.8);
+}
+.navbar {
+  background-color: rgba(0, 0, 0, 0.2);
+}
+
+section {
+  padding: 10px 30px;
+  margin: 5px;
+  height: 1000px;
+  background-color: rgba(0, 0, 0, 0.6);
+  position: relative;
+}
+
+h1 {
+  color: rgba(0, 0, 0, 0.8);
+}
+
+h3 {
+  color: rgba(0, 0, 0, 0.7);
+}
+
+li {
+  border: 1px solid rgba(0, 0, 0, 0.4);
+}
+
+p>a {
+  position: absolute;
+  bottom: 10px;
+  right: 10px;
+  color: rgba(255, 255, 255, 0.8);
+}
+
+p>a:hover{
+  text-decoration: none;
+  color: rgba(255, 255, 255, 1);
+}
+
+p>a:active, p>a:visited {
+  text-decoration: none;
+  color: rgba(255, 255, 255, 0.8);
+}
